@@ -7,6 +7,7 @@ class Main {
 }
 
 abstract class Shape{
+    String color = "blue";
     int x;
     int y;
     public Shape(int x, int y){
