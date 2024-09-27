@@ -9,10 +9,9 @@ class Main {
 abstract class Shape{
     int x;
     int y;
-    String colour;
+    String color = "pink";
     public Shape(int x, int y){
         this.x = x;
         this.y = y;
-        this.colour = "Magenta";
     }
 }
