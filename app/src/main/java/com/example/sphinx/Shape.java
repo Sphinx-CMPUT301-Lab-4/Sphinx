@@ -7,10 +7,9 @@ class Main {
 }
 
 abstract class Shape{
-    String color = "blue";
     int x;
     int y;
-    String color = "$PUT_YOUR_CHOICE_OF_COLOR";
+    String color = "blue";
     public Shape(int x, int y){
         this.x = x;
         this.y = y;
